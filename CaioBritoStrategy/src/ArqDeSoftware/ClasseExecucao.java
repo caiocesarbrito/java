@@ -3,8 +3,10 @@ package ArqDeSoftware;
 public class ClasseExecucao {
 
 	public static void main(String[] args) {
-		Jogador jogador = new Jogador("Harry", "goleiro", 13);
-		jogador.jogar();
+		Artilheiro artilheiro = new Artilheiro("Harry", "artilheiro");
+		Goleiro goleiro = new Goleiro("Cassio", "goleiro");
+		artilheiro.marcar();
+		goleiro.defender();
 
 	}
 
